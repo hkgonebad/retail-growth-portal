@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Register - Retail Careers</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="regPage">
+
+	<!--  -->
+	<header >
+		<!-- Header -->
+		<div class="topHeader titleHeader">
+			<div class="container">
+
+				<nav class="navbar navbar-expand-lg" >
+					<a class="navbar-brand logo" href="index.html"><img src="img/logo.png"></a>
+					
+					<h1 class="pageTitle">Registration</h1>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<!--  -->
+	<main>
+
+		<!--  -->
+		<section class="block registerPage">
+			<div class="container">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-selected="true">
+                            <img src="img/icons/lock.svg" alt="">
+                            <span>Login Information</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#personal" type="button" role="tab" aria-selected="false">
+                            <img src="img/icons/personal.svg" alt="">
+                            <span>Personal Information</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-selected="false">
+                            <img src="img/icons/education.svg" alt="">
+                            <span>Education Detail</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-selected="false">
+                            <img src="img/icons/work.svg" alt="">
+                            <span>Work Experience</span>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#other" type="button" role="tab" aria-selected="false">
+                            <img src="img/icons/other.svg" alt="">
+                            <span>Other Detail</span>
+                        </button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="login" role="tabpanel"  tabindex="0">
+                        <div class="regForm">
+                            <h3>Login Information</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-floating mand">
+                                        <input type="text" class="form-control" id="userid" placeholder="Enter your Username">
+                                        <label for="userid">Username</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-floating mand">
+                                        <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+                                        <label for="email">Email Address</label>
+                                    </div>
+                                </div>
+            
+                                <div class="col-md-6">
+                                    <div class="form-floating mand icon">
+                                        <i class="fa fa-eye-slash"></i>
+                                        <input type="password" class="form-control" id="password" placeholder="**********">
+                                        <label for="password">Password</label>
+                                    </div>
+                                </div>
+            
+                                <div class="col-md-6">
+                                    <div class="form-floating mand icon">
+                                        <i class="fa fa-eye-slash"></i>
+                                        <input type="password" class="form-control" id="confpassword" placeholder="**********">
+                                        <label for="confpassword">Confirm Password</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <small>**Password should be min. 8 characters long, 1 Uppercase, 1 Special Character and 1 numeral character.</small>
+
+                            <div class="btns">
+                                <a href="#!" class="btn btn-primary">Save / Submit</a>
+                                <a href="#!" class="btn btn-danger">Cancel</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="personal" role="tabpanel"  tabindex="0">
+                        <div class="regForm">
+                            <h3>Personal Information</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-floating mand">
+                                        <input type="text" class="form-control" id="firstName" placeholder="As per Aadhar">
+                                        <label for="firstName">First Name</label>
+                                    </div>
+                                </div>
+            
+                                <div class="col-md-6">
+                                    <div class="form-floating mand">
+                                        <input type="text" class="form-control" id="lastName" placeholder="As per Aadhar">
+                                        <label for="lastName">Last Name</label>
+                                    </div>
+                                </div>
+            
+                                <div class="col-md-6">
+                                    <div class="form-floating form-dob mand icon">
+                                        <i class="fa fa-calendar"></i>
+                                        <input type="email" class="form-control" id="dob" placeholder="dd/mm/yyyy">
+                                        <label for="dob">Date of Birth</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-floating mand">
+                                        <select type="text" class="form-control" id="firstName" placeholder="As per Aadhar">
+                                            <option value="">Select</option>
+                                            <option value="">Male</option>
+                                            <option value="">Female</option>
+                                        </select>
+                                        <label for="firstName">Gender</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="education" role="tabpanel"  tabindex="0">...</div>
+                    <div class="tab-pane fade" id="work" role="tabpanel"  tabindex="0">...</div>
+                    <div class="tab-pane fade" id="other" role="tabpanel"  tabindex="0">...</div>
+                </div>
+			</div>
+		</section>
+
+	</main>
+
+	<script src="js/vendor/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script> -->
+
+	<script src="js/main.js"></script>
+	<!-- <script src="js/lottie.js"></script> -->
+
+</body>
+</html>
